@@ -193,39 +193,6 @@ int main()
 {
     LinkedList list;
 
-    list.insertEnd(10);
-    list.insertEnd(20);
-    list.insertEnd(30);
-
-    cout << "Initial List: ";
-    list.display();
-
-    list.insertFront(5);
-    cout << "After insertFront(5): ";
-    list.display();
-
-    list.insertPosition(3, 15);
-    cout << "After insertPosition(3,15): ";
-    list.display();
-
-    list.deleteFront();
-    cout << "After deleteFront(): ";
-    list.display();
-
-    list.deleteLast();
-    cout << "After deleteLast(): ";
-    list.display();
-
-    list.deletePosition(2);
-    cout << "After deletePosition(2): ";
-    list.display();
-
-    cout << "\nSearch 20: ";
-    cout << (list.search(20) ? "Found" : "Not Found") << endl;
-
-    cout << "Search 100: ";
-    cout << (list.search(100) ? "Found" : "Not Found") << endl;
-
-    cout << list.length();
+    
     return 0;
 }
